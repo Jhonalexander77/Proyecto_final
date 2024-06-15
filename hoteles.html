@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hoteles</title>
+    <link rel="stylesheet" href="hoteles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Bootstrap CSS (imported for grid system) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .logo {
+            max-width: 150px;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .menu {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="images/logo.png" alt="logoEmpresa" name="logoEmpresa" class="img-fluid">
+            </div>
+            <div class="menu">
+                <nav>
+                    <a href="index.html">Inicio</a>
+                    <a href="planes.html">Planes</a>
+                    <a href="hoteles.html">Hoteles</a>
+                    <a href="reserva.html">Reserva</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contenedor de las tarjetas -->
+    <div class="container">
+        <hr>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-image">
+                         <img id="myBtn1" src="images/hoteles/Hilton-hotel.png" alt="Abrir Modal"
+                        style="cursor:pointer;width:100%;height:auto;">
+                    </div>
+                    <div class="card-content">
+                        <p> Experimentará un ambiente lujoso y relajado en este auténtico hotel boutique, que fue
+                            reimaginado para mantener el patrimonio colonial intacto dentro de tres hermosas casas
+                            blancas que lo componen. Sus 20 habitaciones y 11 suites bellamente decoradas </p>
+                        <a href="https://www.hilton.com/es/book/reservation/find/"
+                            class="btn-reservar"><button class="btn btn-primary">Reservar ahora</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-image">
+                        <img id="myBtn2" src="images/hoteles/granserines.png" alt="Abrir Modal"
+                        style="cursor:pointer;width:100%;height:auto;">
+                    </div>
+                    <div class="card-content">
+                        <p> La isla de San Andrés, territorio insular es considerada como la perla escondida en el Mar
+                            Caribe colombiano y forma parte de los destinos élite de la gran cuenca del Caribe, entre
+                            sus premios y reconocimientos es galardonada como la mejor playa de Sudamérica</p>
+                        <a href="https://bookings.sirenishotels.com/es/bookcore/my-booking/?lang=es"
+                            class="btn-reservar"><button class="btn btn-primary">Reservar ahora</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/hoteles/nh-hotels.jpg" alt="Imagen 3" style="width:100%;height:auto;">
+                    </div>
+                    <div class="card-content">
+                        <p>NH Hotel Group es un operador multinacional consolidado y una de las cadenas hoteleras
+                            urbanas de referencia a nivel mundial. Al cierre del ejercicio 2019, el Grupo está presente
+                            en 30 países, operando 368 hoteles y 57.466 habitaciones en tres continentes (Europa,
+                            América y África).</p>
+                        <a href="https://www.nh-hotels.com/co/servicing" class="btn-reservar"><button
+                                class="btn btn-primary">Reservar ahora</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/hoteles/Hotel-Jardin.jpg" alt="Imagen 4" style="width:100%;height:auto;">
+                    </div>
+                    <div class="card-content">
+                        <p class="centrado">Ya sea que estés aquí para explorar los pintorescos paisajes, sumergirte</p>
+                        <p>en la cultura local o simplemente relajarte y disfrutar de la serenidad del entorno, en el
+                            Hotel Jardín Antioquia encontrarás todo lo que necesitas para una escapada perfecta.</p>
+                        <a href="https://hoteljardin.com.co/" class="btn-reservar"><button
+                                class="btn btn-primary">Reservar ahora</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/hoteles/la-quinta-hotels9732.jpg" alt="Imagen 5"
+                            style="width:100%;height:auto;">
+                    </div>
+                    <div class="card-content">
+                        <p>Ya sea que vienes por trabajo o vacaciones a esta histórica ciudad colombiana, disfruta de la
+                            gran cantidad de servicios y el trato amigable en La Quinta by Wyndham Medellin.
+                            Convenientemente ubicado en la avenida Las Palmas, cerca del centro de la capital de
+                            Antioquia, nuestro acogedor hotel está a pocos minutos del Centro</p>
+                        <a href="https://www.wyndhamhotels.com/es-xl/laquinta" class="btn-reservar"><button
+                            class="btn btn-primary">Reservar ahora</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; rollingAreoun Todos los derechos reservados.</p>
+            <p>Información adicional sobre los hoteles, servicios y términos de uso.</p>
+        </div>
+    </footer>
+
+    <!-- El modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Rolling Around Medellin</h2>
+                <span class="close" onclick="closeModal()">&times;</span>
+            </div>
+            <div class="carousel">
+                <img src="images/hoteles/hoteles-vistas/b641a3a7_z.webp" alt="Imagen 1">
+                <img src="images/hoteles/hoteles-vistas/Contenido_Hilton_06.webp" alt="Imagen 2">
+                <img src="images/hoteles/hoteles-vistas/w20_slide_hotel_hampton_medellin_01.jpg" alt="Imagen 3">
+                <!-- Agrega más imágenes aquí -->
+            </div>
+            <span class="prev" onclick="plusSlides(-1)">&#10094;</span>
+            <span class="next" onclick="plusSlides(1)">&#10095;</span>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS (imported for modal functionality) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        // Función para abrir el modal cuando se hace clic en la imagen
+        document.getElementById('myBtn1').addEventListener('click', function () {
+            document.getElementById('myModal').style.display = "block";
+        });
+
+        // Función para cerrar el modal
+        function closeModal() {
+            document.getElementById('myModal').style.display = "none";
+        }
+
+        // Función para controlar el carrusel
+        var slideIndex = 1;
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("carousel")[0].getElementsByTagName("img");
+            if (n > slides.length) { slideIndex = 1; }
+            if (n < 1) { slideIndex = slides.length; }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex - 1].style.display = "block";
+        }
+        showSlides(slideIndex);
+    </script>
+     <!-- El modal -->
+     <div id="myModal2" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Rolling Around Medellin</h2>
+                <span class="close" onclick="closeModal()">&times;</span>
+            </div>
+            <div class="carousel2">
+                <img src="images/hoteles/hoteles-vistas/caption.jpg" alt="Imagen 1">
+                <img src="images/hoteles/hoteles-vistas/expediav2-145637-3063167881-922382.jpg" alt="Imagen 2">
+                <img src="images/hoteles/hoteles-vistas/slidepuntacanaresort1965.jpg" alt="Imagen 3">
+                <!-- Agrega más imágenes aquí -->
+            </div>
+            <span class="prev" onclick="plusSlides(-1)">&#10094;</span>
+            <span class="next" onclick="plusSlides(1)">&#10095;</span>
+        </div>
+    </div>
+    <script>
+        // Función para abrir el modal cuando se hace clic en la imagen
+        document.getElementById('myBtn2').addEventListener('click', function () {
+            document.getElementById('myModal2').style.display = "block";
+        });
+
+        // Función para cerrar el modal
+        function closeModal() {
+            document.getElementById('myModal2').style.display = "none";
+        }
+
+        // Función para controlar el carrusel
+        var slideIndex = 1;
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("carousel2")[0].getElementsByTagName("img");
+            if (n > slides.length) { slideIndex = 1; }
+            if (n < 1) { slideIndex = slides.length; }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex - 1].style.display = "block";
+        }
+        showSlides(slideIndex);
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,243 @@
+/* ------------------ General ------------------ */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'roboto2';
+    filter: brightness(1);
+}
+
+video{
+    width: 100%;
+    margin: 0px auto;
+}
+/* ---------------------------------------------- */
+/* -------------------Cabecera------------------- */
+header{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 8px 30px;
+    background: url(images/Planes&vistas/Cartagena-.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+header .menu{
+    position: relative;
+    display: inline-block;
+    margin: 22px;
+}
+header .logo img{
+    margin-right: 80px;
+    border-radius: 15%;
+    width: 120px;
+}
+header .menu nav{
+    flex: 75%;
+    padding: 10px;
+}
+header .menu nav a{
+    padding: 5px;
+    margin-right: 50px;
+    padding-right: 50px;
+    border-right: solid 2px #ea601f;
+    font-family: 'roboto2';
+    text-decoration: none;
+    font-size: 2rem;
+    color: #ea601f;
+}
+header .menu nav a:last-child {
+    margin-right: 0; 
+    border-right: none;
+}
+header .menu nav a:hover{
+    color:blue;
+    text-decoration:underline 3px solid #ea601f;
+}
+/* --------------------------------------------- */
+/* ------------------Main----------------------- */
+.vid1{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* ----------------------------------------------- */
+/* ----------------Texto inicial------------------ */
+.texto1{
+    margin: 30px 100px;
+    text-align: center;
+    font-family: 'roboto1';
+}
+.texto1 h2{
+    margin: 10px;
+    font-size: 2.5rem;
+    color: #ea601f;
+}
+.texto1 p{
+    font-size: 2rem;
+}
+/* ---------------------------------------------- */
+/* ----------------- Iconos -------------------- */
+.parte2{
+    margin: 0;
+    padding: 30px;
+}
+.iconos{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 100px;
+    font-family: 'roboto1';
+}
+.iconos .ico1, .iconos .ico2, .iconos .ico3{
+    width: 300px;
+    font-size: 25px;
+    text-align: center;
+    background-color: #eeb89f;
+    padding: 20px 20px 4px;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.ico1:hover{
+    transition: 0.35s;
+    font-size: 1.5rem;
+    color: darkblue;
+    background-color: aliceblue;
+    transition: 2s;
+    
+}
+
+.ico2:hover{
+    transition: 0.35s;
+    font-size: 1.5rem;
+    color: darkblue;
+    background-color: aliceblue;
+    transition: 2s;
+}
+
+.ico3:hover{
+    transition: 0.35s;
+    font-size: 1.5rem;
+    color: darkblue;
+    background-color: aliceblue;
+    transition: 2s;
+}
+/* ---------------------------------------------- */
+/* ----------------- Textos -------------------- */
+.textos{
+    background-image: url(images/Paisaje\ de\ colombia.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    font-size: 32px;
+    font-family: 'roboto1';
+}
+.textos .parrafo1, .textos .parrafo2, .textos .parrafo3{
+    background-color: rgba(240, 214, 187, 0.65);
+    margin: 50px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+}
+/* ---------------------------------------------- */
+/* --------------- Logos aliados ------------------ */
+.logos img{
+    width: 140px;
+}
+.logos{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 80px 30px;
+}
+/* ---------------------------------------------- */
+/* -------------------footer--------------------- */
+
+footer {
+    background: #ea601f;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #333;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+/* --------------------------------------------- */
+@font-face{
+    font-family: 'roboto1';
+    src: url('fonts/Roboto-Light.ttf');
+}
+@font-face{
+    font-family: 'roboto2';
+    src: url('fonts/Roboto-Bold.ttf');
+}
+
+@media screen and (max-width: 1300px) {
+    header {
+        flex-direction: column; 
+        
+    }
+    header .menu nav {
+        width: 100%; 
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    header .menu nav a {
+        text-align: center;
+        display: block;
+        margin: 0 auto; 
+        width: 100%;
+        border: none;
+        border-bottom: solid 2px #ea601f;
+    }
+}
+@media screen and (max-width: 2000px) {
+    .textos{
+        flex-direction: column; 
+        padding: 80px;
+    }
+}
